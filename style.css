@@ -1,0 +1,94 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #11131a;
+  color: #e9edf4;
+  font-family: -apple-system, Segoe UI, Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+header {
+  padding: 18px 0 6px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+header p {
+  margin: 4px 0 0;
+  color: #9aa2b1;
+  font-size: 13px;
+}
+
+main {
+  position: relative;
+}
+
+#scene {
+  background: #171a22;
+  border-radius: 10px;
+  border: 1px solid #262b38;
+}
+
+#stat-bar {
+  display: flex;
+  gap: 18px;
+  justify-content: center;
+  margin: 12px 0 24px;
+  font-size: 14px;
+  color: #c7cddb;
+}
+
+#panel {
+  position: fixed;
+  top: 0;
+  right: -320px;
+  width: 300px;
+  height: 100%;
+  background: #1a1d27;
+  border-left: 1px solid #2a2f3d;
+  padding: 20px;
+  transition: right 0.2s ease;
+}
+
+#panel.open {
+  right: 0;
+}
+
+#panel-close {
+  background: none;
+  border: none;
+  color: #9aa2b1;
+  font-size: 18px;
+  cursor: pointer;
+  float: right;
+}
+
+.status-pill {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-busy { background: #163a28; color: #3ddc84; }
+.status-idle { background: #3a3119; color: #f5c451; }
+.status-offline { background: #2a2c33; color: #8a8f9b; }
+
+dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px 10px;
+  font-size: 13px;
+}
+
+dt { color: #8a8f9b; }
+dd { margin: 0; }

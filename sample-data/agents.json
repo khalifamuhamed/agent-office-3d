@@ -1,0 +1,8 @@
+[
+  { "id": "a1", "name": "Nour",  "status": "busy",    "tokens": 48200, "cost": 2.14, "lastActive": 5 },
+  { "id": "a2", "name": "Omar",  "status": "busy",    "tokens": 31500, "cost": 1.47, "lastActive": 12 },
+  { "id": "a3", "name": "Layla", "status": "idle",    "tokens": 9800,  "cost": 0.38, "lastActive": 240 },
+  { "id": "a4", "name": "Tarek", "status": "offline", "tokens": 0,     "cost": 0.00, "lastActive": 5400 },
+  { "id": "a5", "name": "Sara",  "status": "idle",    "tokens": 15200, "cost": 0.61, "lastActive": 300 },
+  { "id": "a6", "name": "Yusuf", "status": "busy",    "tokens": 62100, "cost": 3.02, "lastActive": 8 }
+]
